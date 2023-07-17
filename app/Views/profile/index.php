@@ -345,15 +345,6 @@
                             <li class="list-group-item border-0 ps-0 text-sm">
                                 <strong class="text-dark">Status :</strong> &nbsp; Aktif
                             </li>
-
-                            <li class="list-group-item border-0 ps-0 text-sm">
-                                <strong class="text-dark">Peran :</strong>
-                                <?php if ($accounts[0]->name == "admin") : ?>
-                                    <span class="badge badge-sm bg-gradient-primary">Admin</span>
-                                <?php else : ?>
-                                    <span class="badge badge-sm bg-gradient-secondary">Pengguna</span>
-                                <?php endif; ?>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -362,7 +353,7 @@
             <div class="col-12 col-xl-4 mt-xl-0 mt-4">
                 <div class="card h-100">
                     <div class="card-header pb-0 p-3">
-                        <h6 class="mb-0">Pinjaman dan Praktikum</h6>
+                        <h6 class="mb-0">Keterangan Pinjaman</h6>
                     </div>
 
                     <div class="card-body p-3 overflow-y-scroll" style="height: 200px;">
@@ -372,7 +363,7 @@
 
                         <div class="card card-frame ">
                             <div class="card-body">
-                                <p class="card-title text-info text-gradient text-ms font-weight-bolder">Keterangan Peminjaman Aset</p>
+
 
                                 <?php foreach ($loans as $loan) : ?>
                                     <?php

@@ -30,7 +30,7 @@ class LogsModel extends Model
         'purpose' => 'required',
         'start_time' => 'required|rational_start_time',
         'end_time' => 'required|rational_end_time[start_time]',
-        'currant_condition' => 'required|min_lenght[4]'
+        'currant_condition' => 'required|min_length[4]'
     ];
     protected $validationMessages   = [
         'asset_id' => [
